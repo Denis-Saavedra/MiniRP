@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/03/22 14:38:01.000.249,=C:\Users\denis\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/22 14:39:48.000.649,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FPrincipal.pas=C:\Users\denis\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/22 14:39:48.000.649,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FPrincipal.dfm=C:\Users\denis\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/03/22 14:39:55.000.154,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\MiniImpacto.dproj=C:\Users\denis\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/03/23 12:10:30.000.176,=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.pas</Transaction>
+    <Transaction>2024/03/23 12:11:48.000.898,=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.pas</Transaction>
+    <Transaction>2024/03/23 12:12:24.000.226,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\DataModule.dfm=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.dfm</Transaction>
+    <Transaction>2024/03/23 12:12:24.000.226,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\DataModule.pas=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.pas</Transaction>
+    <Transaction>2024/03/23 12:28:16.000.127,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\dmDBConnection.pas=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\DataModule.pas</Transaction>
+    <Transaction>2024/03/23 12:28:16.000.127,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\dmDBConnection.dfm=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\DataModule.dfm</Transaction>
+    <Transaction>2024/03/25 19:52:26.000.784,=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit2.pas</Transaction>
+    <Transaction>2024/03/25 20:00:01.000.931,=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit2.pas</Transaction>
+    <Transaction>2024/03/25 20:00:14.000.799,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit2.dfm=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FUsuarios.dfm</Transaction>
+    <Transaction>2024/03/25 20:00:14.000.799,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit2.pas=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FUsuarios.pas</Transaction>
+    <Transaction>2024/03/25 20:13:45.000.586,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FUsuarios.pas=</Transaction>
+    <Transaction>2024/03/25 20:14:14.000.304,=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.pas</Transaction>
+    <Transaction>2024/03/25 20:14:24.000.800,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.dfm=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FrUsuarios.dfm</Transaction>
+    <Transaction>2024/03/25 20:14:24.000.800,C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit1.pas=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\View\FrUsuarios.pas</Transaction>
+    <Transaction>2024/04/01 13:29:26.000.591,=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

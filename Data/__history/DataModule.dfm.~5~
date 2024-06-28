@@ -1,0 +1,58 @@
+object DataModule1: TDataModule1
+  Height = 750
+  Width = 1000
+  PixelsPerInch = 120
+  object SQLConnection: TSQLConnection
+    ConnectionName = 'FBConnection'
+    DriverName = 'Firebird'
+    Params.Strings = (
+      'DriverName=Firebird'
+      
+        'Database=C:\Users\denis\Desktop\DEVOPS\Delphi\MiniImpacto\Data\M' +
+        'INIIMPACTO.fdb'
+      'RoleName=RoleName'
+      'User_Name=sysdba'
+      'Password=masterkey'
+      'ServerCharSet='
+      'SQLDialect=3'
+      'ErrorResourceFile='
+      'LocaleCode=0000'
+      'BlobSize=-1'
+      'CommitRetain=False'
+      'WaitOnLocks=True'
+      'IsolationLevel=ReadCommitted'
+      'Trim Char=False')
+    Connected = True
+    Left = 112
+    Top = 88
+  end
+  object QueryUsuarios: TSQLQuery
+    Active = True
+    MaxBlobSize = -1
+    Params = <>
+    SQL.Strings = (
+      'SELECT * FROM USUARIOS;')
+    SQLConnection = SQLConnection
+    Left = 104
+    Top = 192
+    object QueryUsuariosID: TIntegerField
+      FieldName = 'ID'
+      Required = True
+    end
+    object QueryUsuariosUSUARIO: TStringField
+      FieldName = 'USUARIO'
+      Required = True
+      Size = 10
+    end
+    object QueryUsuariosNOME: TStringField
+      FieldName = 'NOME'
+      Required = True
+      Size = 10
+    end
+    object QueryUsuariosSENHA: TStringField
+      FieldName = 'SENHA'
+      Required = True
+      Size = 10
+    end
+  end
+end

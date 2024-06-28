@@ -1,0 +1,33 @@
+unit dmDBConnection;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXFirebird, Data.DB, Data.SqlExpr,
+  Data.FMTBcd, Datasnap.DBClient, SimpleDS;
+
+type
+  TDBConnection = class(TDataModule)
+    SQLConnection: TSQLConnection;
+    SimpleDataSet1: TSimpleDataSet;
+    DataSource1: TDataSource;
+    SimpleDataSet1ID: TIntegerField;
+    SimpleDataSet1USUARIO: TStringField;
+    SimpleDataSet1NOME: TStringField;
+    SimpleDataSet1SENHA: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DBConnection: TDBConnection;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

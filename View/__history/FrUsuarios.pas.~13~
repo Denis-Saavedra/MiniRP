@@ -1,0 +1,80 @@
+unit FrUsuarios;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Buttons, Vcl.DBCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids, Vcl.Mask;
+
+type
+  TFrameUsuarios = class(TFrame)
+    pnlPrincipal: TPanel;
+    pnlTopo: TPanel;
+    pnlGrid: TPanel;
+    pnlCadastrais: TPanel;
+    DBGrid1: TDBGrid;
+    pnlNavegator: TPanel;
+    DBNavigator1: TDBNavigator;
+    pnlBotoes: TPanel;
+    pnlBnavegar: TPanel;
+    pnlBCadastrais: TPanel;
+    btnNavegar: TButton;
+    btnCadastrais: TButton;
+    pnlBusca: TPanel;
+    pnlComboBox: TPanel;
+    ComboBox: TComboBox;
+    EditBusca: TEdit;
+    Label1: TLabel;
+    DBEdit1: TDBEdit;
+    Label2: TLabel;
+    DBEdit2: TDBEdit;
+    Label3: TLabel;
+    DBEdit3: TDBEdit;
+    Label4: TLabel;
+    DBEdit4: TDBEdit;
+    Label5: TLabel;
+    DBEdit5: TDBEdit;
+    procedure FrameResize(Sender: TObject);
+    procedure btnNavegarClick(Sender: TObject);
+    procedure btnCadastraisClick(Sender: TObject);
+    procedure FrameExit(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+uses dmDBConnection,
+FPrincipal;
+
+{$R *.dfm}
+
+procedure TFrameUsuarios.btnCadastraisClick(Sender: TObject);
+begin
+  pnlGrid.Hide;
+  pnlCadastrais.Show;
+  pnlCadastrais.Align := alClient;
+end;
+
+procedure TFrameUsuarios.btnNavegarClick(Sender: TObject);
+begin
+  pnlGrid.Show;
+  pnlCadastrais.Hide;
+end;
+
+procedure TFrameUsuarios.FrameExit(Sender: TObject);
+begin
+  FormPrincipal.btnUsuarios.Enabled := true;
+end;
+
+procedure TFrameUsuarios.FrameResize(Sender: TObject);
+begin
+  pnlBnavegar.Width := pnlBotoes.Width div 2;
+  pnlBCadastrais.Width := pnlBotoes.Width div 2;
+  pnlCadastrais.Hide;
+end;
+
+end.

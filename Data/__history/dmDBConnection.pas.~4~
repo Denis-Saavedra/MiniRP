@@ -1,0 +1,42 @@
+unit dmDBConnection;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXFirebird, Data.DB, Data.SqlExpr,
+  Data.FMTBcd;
+
+type
+  TDBConnection = class(TDataModule)
+    SQLConnection: TSQLConnection;
+    QueryUsuarios: TSQLQuery;
+    SQLDataSet1: TSQLDataSet;
+    SQLDataSet1ID: TIntegerField;
+    SQLDataSet1USUARIO: TStringField;
+    SQLDataSet1NOME: TStringField;
+    SQLDataSet1SENHA: TStringField;
+    QueryUsuariosID: TIntegerField;
+    QueryUsuariosNOME: TStringField;
+    QueryUsuariosCPF: TIntegerField;
+    QueryUsuariosUF: TStringField;
+    QueryUsuariosENDERECO: TStringField;
+    QueryUsuariosNUMERO: TStringField;
+    QueryUsuariosCELULAR: TIntegerField;
+    QueryUsuariosTELEFONE: TIntegerField;
+    QueryUsuariosNASCIMENTO: TDateField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DBConnection: TDBConnection;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

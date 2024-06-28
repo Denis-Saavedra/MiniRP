@@ -1,0 +1,32 @@
+unit DataModule;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DBXFirebird, Data.DB, Data.SqlExpr,
+  Data.FMTBcd;
+
+type
+  TDataModule1 = class(TDataModule)
+    SQLConnection: TSQLConnection;
+    QueryUsuarios: TSQLQuery;
+    QueryUsuariosID: TIntegerField;
+    QueryUsuariosUSUARIO: TStringField;
+    QueryUsuariosNOME: TStringField;
+    QueryUsuariosSENHA: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.
